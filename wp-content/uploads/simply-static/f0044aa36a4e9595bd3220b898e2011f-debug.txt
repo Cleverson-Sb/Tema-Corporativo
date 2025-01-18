@@ -1,0 +1,897 @@
+[2025-01-18 13:50:32] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-01-18 13:50:32] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-01-18 13:50:32] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-01-18 13:50:32] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-01-18 13:50:32] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-01-18 13:50:32] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-01-18 13:50:32] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232\
+[2025-01-18 13:50:32] [class-ss-setup-task.php:72] Adding origin URL to queue: http://tema-corporativo.local/
+[2025-01-18 13:50:32] [class-ss-setup-task.php:166] File doesn't exist: C:\Users\cleve\Documentos\GitHub\Tema-Corporativo\wp-content\uploads
+[2025-01-18 13:50:32] [class-ss-setup-task.php:166] File doesn't exist: C:\Users\cleve\Documentos\GitHub\Tema-Corporativo\wp-content
+[2025-01-18 13:50:32] [class-ss-setup-task.php:143] File C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/feed/index.html exists; adding to queue as: http://tema-corporativo.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed/index.html
+[2025-01-18 13:50:32] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-01-18 13:50:32] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-18 13:50:32] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-18 13:50:32] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2025-01-18 13:50:32] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/
+[2025-01-18 13:50:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2025-01-18 13:50:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1a8ce227-eErx10.tmp
+[2025-01-18 13:50:32] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/?simply_static_page=7571
+[2025-01-18 13:50:32] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/?simply_static_page=7571
+[2025-01-18 13:50:37] [class-ss-url-fetcher.php:103] Filesize: 113825 bytes
+[2025-01-18 13:50:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-18 13:50:37] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-01-18 13:50:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1a8ce227-eErx10.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/index.html
+[2025-01-18 13:50:37] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 55 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:d5332dcfd6880dcf22d372ea6f31361c0f2a2cda===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed/index.html
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ae901ca-o16aCw.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed/index.html?simply_static_page=7572
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed/index.html?simply_static_page=7572
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed/index.html
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ae901ca-o16aCw.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed/index.html
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 1 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:79c920fec0852d666f612ebd3d38d80b220d67a4===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2025-01-18 13:50:38] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-18 13:50:38] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-18 13:50:38] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:69] Total pages: 57; Pages remaining: 55
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-3-70x57.png
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aea0310-AlUvMy.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-3-70x57.png?simply_static_page=7573
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-3-70x57.png?simply_static_page=7573
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 5438 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-3-70x57.png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aea0310-AlUvMy.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-3-70x57.png
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:be1e3afc6f8882d542eaf711f1a35d13229e1633===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-3.png
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aea55c8-issoEg.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-3.png?simply_static_page=7574
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-3.png?simply_static_page=7574
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 39271 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-3.png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aea55c8-issoEg.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-3.png
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:b61b85612ccb6f61a9e0592207db848658e9779f===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema.png
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aeaa5e8-d5KPR6.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/tema.png?simply_static_page=7575
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema.png?simply_static_page=7575
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 61842 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/tema.png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aeaa5e8-d5KPR6.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/tema.png
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:e2557a35e556a245fd7e1667d88b077be65973d7===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema-300x94.png
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aeafeb8-fxqZLX.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/tema-300x94.png?simply_static_page=7576
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema-300x94.png?simply_static_page=7576
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 5637 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/tema-300x94.png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aeafeb8-fxqZLX.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/tema-300x94.png
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:c1a800f632a7fe750d956a4ee250531f7985dd3f===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema-1024x320.png
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aeb8a4e-HoGYJ2.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/tema-1024x320.png?simply_static_page=7577
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema-1024x320.png?simply_static_page=7577
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 38062 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/tema-1024x320.png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aeb8a4e-HoGYJ2.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/tema-1024x320.png
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:ccf21d809b5c0bd5647457cef0b18f6ebb4fe1a9===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema-768x240.png
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aebe3a1-QAqPjz.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/tema-768x240.png?simply_static_page=7578
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema-768x240.png?simply_static_page=7578
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 24843 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/tema-768x240.png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aebe3a1-QAqPjz.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/tema-768x240.png
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:9bc63fe87746b5b9ecb7e69505db6cf1aabf05ec===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/8042fd69-981c-4f23-868a-b1649b06e791.png
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aec379f-Me6uvG.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/8042fd69-981c-4f23-868a-b1649b06e791.png?simply_static_page=7579
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/8042fd69-981c-4f23-868a-b1649b06e791.png?simply_static_page=7579
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 46465 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/8042fd69-981c-4f23-868a-b1649b06e791.png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aec379f-Me6uvG.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/8042fd69-981c-4f23-868a-b1649b06e791.png
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:8afda4dbcfb39127396e839820b3b517e9dc47c3===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/logoAmareloPreto-169x300.jpg
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aec8b73-i1ZhZX.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/logoAmareloPreto-169x300.jpg?simply_static_page=7580
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/logoAmareloPreto-169x300.jpg?simply_static_page=7580
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 6375 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/logoAmareloPreto-169x300.jpg
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aec8b73-i1ZhZX.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/logoAmareloPreto-169x300.jpg
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:b634867a5447195b0351252b2c729892e5a97e99===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/logoQuadradoAmarelo.jpg
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aecdeb2-Fjtfqg.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/logoQuadradoAmarelo.jpg?simply_static_page=7581
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/logoQuadradoAmarelo.jpg?simply_static_page=7581
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 12473 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/logoQuadradoAmarelo.jpg
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aecdeb2-Fjtfqg.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/logoQuadradoAmarelo.jpg
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:78ac5359cdd0b4bddb414d8669597400ce6ea1dd===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema2-300x94.png
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aed34a3-crktH5.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/tema2-300x94.png?simply_static_page=7582
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema2-300x94.png?simply_static_page=7582
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 5676 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/tema2-300x94.png
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aed34a3-crktH5.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/tema2-300x94.png
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:7583a878b6c83c06ba45de33edeaf1cda5524c58===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoBranco-300x137.jpg
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aed7a06-gz4Lan.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoBranco-300x137.jpg?simply_static_page=7583
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoBranco-300x137.jpg?simply_static_page=7583
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 7126 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/temaLargoBranco-300x137.jpg
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aed7a06-gz4Lan.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/temaLargoBranco-300x137.jpg
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:2c2ce845aed31897601926796ea74baa94e05ab2===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoPreto-300x158.jpg
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aeddc08-QQczmW.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoPreto-300x158.jpg?simply_static_page=7584
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoPreto-300x158.jpg?simply_static_page=7584
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 7583 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/temaLargoPreto-300x158.jpg
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aeddc08-QQczmW.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/temaLargoPreto-300x158.jpg
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:9458ad4a8813de131d80f515aab350c9474100ef===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaRedondoAmarelo-237x300.jpg
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aee9755-becUTg.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/temaRedondoAmarelo-237x300.jpg?simply_static_page=7585
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaRedondoAmarelo-237x300.jpg?simply_static_page=7585
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 10626 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/temaRedondoAmarelo-237x300.jpg
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aee9755-becUTg.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/temaRedondoAmarelo-237x300.jpg
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:38] [class-ss-page.php:119] Checking Content Identical:2960224343ac9f4f02d0611b0369e2c8e4dc94ba===. Value: FALSE
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-includes/js/jquery/jquery.min.js
+[2025-01-18 13:50:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 57
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1aeef58f-nLJiGI.tmp
+[2025-01-18 13:50:38] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=7586
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=7586
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-01-18 13:50:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1aeef58f-nLJiGI.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-includes/js/jquery/jquery.min.js
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af0d3e7-oyDGsv.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=7587
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=7587
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af0d3e7-oyDGsv.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af21b30-e8v2qx.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=7588
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=7588
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 23586 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af21b30-e8v2qx.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:8e385ac09da6fa8c2c823f70b909babcdb895df1===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af2aed1-0cwiEg.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js?simply_static_page=7589
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js?simply_static_page=7589
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 4450 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af2aed1-0cwiEg.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:0292349ba263236243a33fb7fdded5527e17bf6a===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/image-gallery.min.js
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af32998-98wzvv.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/image-gallery.min.js?simply_static_page=7590
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/image-gallery.min.js?simply_static_page=7590
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 11098 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/image-gallery.min.js
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af32998-98wzvv.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/image-gallery.min.js
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:bcb9d92586105c6eee1f0ce18b91c81528835c2b===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/isotope.min.js
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af3a448-ca6W4I.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/isotope.min.js?simply_static_page=7591
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/isotope.min.js?simply_static_page=7591
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 34991 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/isotope.min.js
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af3a448-ca6W4I.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/isotope.min.js
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:187c14f5e5899e0469b1ec83107c69819c0f2d02===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af475c9-X9AQWI.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js?simply_static_page=7592
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js?simply_static_page=7592
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 7303 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af475c9-X9AQWI.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:a560113bae3e44dd7b24dc196bb633269a248da9===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af53b1a-CClBVg.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js?simply_static_page=7593
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js?simply_static_page=7593
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 43885 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af53b1a-CClBVg.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:fb1c1657fbefce2362f82265ae7a5d0da2e53d55===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af5dec7-in7ppT.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js?simply_static_page=7594
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js?simply_static_page=7594
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 143661 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af5dec7-in7ppT.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:928eeada1a00b2fa5e34d527980912fba2490370===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af6d472-qmyv01.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js?simply_static_page=7595
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js?simply_static_page=7595
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 421 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af6d472-qmyv01.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:9e1f77b7387f8f489b4cc9793be930b93b237f48===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/uag-plugin/assets/0/uag-js-8.js
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af724ec-4zS1jx.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/uag-plugin/assets/0/uag-js-8.js?simply_static_page=7596
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/uag-plugin/assets/0/uag-js-8.js?simply_static_page=7596
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 2229 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/0/uag-js-8.js
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af724ec-4zS1jx.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/uag-plugin/assets/0/uag-js-8.js
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:3996226d48a395f1c09db91001b317ea4642037d===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/8042fd69-981c-4f23-868a-b1649b06e791-150x150.png
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af77b55-TUsn0W.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/8042fd69-981c-4f23-868a-b1649b06e791-150x150.png?simply_static_page=7597
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/8042fd69-981c-4f23-868a-b1649b06e791-150x150.png?simply_static_page=7597
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 16611 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/8042fd69-981c-4f23-868a-b1649b06e791-150x150.png
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af77b55-TUsn0W.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/8042fd69-981c-4f23-868a-b1649b06e791-150x150.png
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:3fe96135bd3a2cdd213192d7d9bae4e852dcfbfc===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/logoAmareloPreto-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af7ce7c-VTwy9k.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/logoAmareloPreto-150x150.jpg?simply_static_page=7598
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/logoAmareloPreto-150x150.jpg?simply_static_page=7598
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 5403 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/logoAmareloPreto-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af7ce7c-VTwy9k.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/logoAmareloPreto-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:44e1c26df0206c501d20b052d4cc58997c739b7b===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/logoAmareloPreto-576x1024.jpg
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af81cd0-9LfJeT.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/logoAmareloPreto-576x1024.jpg?simply_static_page=7599
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/logoAmareloPreto-576x1024.jpg?simply_static_page=7599
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 24149 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/logoAmareloPreto-576x1024.jpg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af81cd0-9LfJeT.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/logoAmareloPreto-576x1024.jpg
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:3474b1aca837ad93611e107ca43871c8820a7486===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/logoQuadradoAmarelo-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af86723-MwyUQx.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/logoQuadradoAmarelo-150x150.jpg?simply_static_page=7600
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/logoQuadradoAmarelo-150x150.jpg?simply_static_page=7600
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 4949 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/logoQuadradoAmarelo-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af86723-MwyUQx.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/logoQuadradoAmarelo-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:6a7c6bf7d16284fc987a42266d1145e9f30f9981===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema-150x150.png
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af8b625-Tq1Wa9.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/tema-150x150.png?simply_static_page=7601
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema-150x150.png?simply_static_page=7601
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 10778 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/tema-150x150.png
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af8b625-Tq1Wa9.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/tema-150x150.png
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:775314ee1497115d11df6cd453e1e5696985eefc===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema2-150x150.png
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af900f5-w3TCeC.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/tema2-150x150.png?simply_static_page=7602
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema2-150x150.png?simply_static_page=7602
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 11090 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/tema2-150x150.png
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af900f5-w3TCeC.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/tema2-150x150.png
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:ef1b32c1ab1f18c91f1c0708a51d73a263344040===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema2-1024x320.png
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af95444-Rk14IL.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/tema2-1024x320.png?simply_static_page=7603
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/tema2-1024x320.png?simply_static_page=7603
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 39787 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/tema2-1024x320.png
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af95444-Rk14IL.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/tema2-1024x320.png
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:2ec4c8ae132fa1c5d0a8accbf9bed3a6512db8af===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoBranco-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af9a772-pT0oKr.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoBranco-150x150.jpg?simply_static_page=7604
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoBranco-150x150.jpg?simply_static_page=7604
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 3640 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/temaLargoBranco-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af9a772-pT0oKr.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/temaLargoBranco-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:911700096f660a03adb92b80878c64e67395440a===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoBranco.jpg
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1af9f848-MZAHUg.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoBranco.jpg?simply_static_page=7605
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoBranco.jpg?simply_static_page=7605
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 32496 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/temaLargoBranco.jpg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1af9f848-MZAHUg.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/temaLargoBranco.jpg
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:b9700e95c6edbbe58b9e2600cb2fb502d9b3b8be===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoPreto-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1afa4a0d-8Ma4DH.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoPreto-150x150.jpg?simply_static_page=7606
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoPreto-150x150.jpg?simply_static_page=7606
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 3920 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/temaLargoPreto-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1afa4a0d-8Ma4DH.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/temaLargoPreto-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:21d84ae5cbdb2b151d024e1bb40b41955a501bf8===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoPreto-1024x540.jpg
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1afaa459-PPKsCe.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoPreto-1024x540.jpg?simply_static_page=7607
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaLargoPreto-1024x540.jpg?simply_static_page=7607
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 29713 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/temaLargoPreto-1024x540.jpg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1afaa459-PPKsCe.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/temaLargoPreto-1024x540.jpg
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:f8e8640804ac1364d744337d543f90fb8a7cdbc0===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaRedondoAmarelo-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1afaf218-zNsaW9.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/temaRedondoAmarelo-150x150.jpg?simply_static_page=7608
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaRedondoAmarelo-150x150.jpg?simply_static_page=7608
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 6164 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/temaRedondoAmarelo-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1afaf218-zNsaW9.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/temaRedondoAmarelo-150x150.jpg
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:a20f6777d7efe7d29b0f57aefceba4ff2be85f8b===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaRedondoAmarelo-811x1024.jpg
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1afb43ac-mBzVQJ.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/temaRedondoAmarelo-811x1024.jpg?simply_static_page=7609
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/temaRedondoAmarelo-811x1024.jpg?simply_static_page=7609
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 42625 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/temaRedondoAmarelo-811x1024.jpg
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1afb43ac-mBzVQJ.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/temaRedondoAmarelo-811x1024.jpg
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:ea6651b69d2c2f33f72aae4d2c678c2c5a73ae53===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-270x270.png
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1afba243-g6InQZ.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-270x270.png?simply_static_page=7610
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-270x270.png?simply_static_page=7610
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:103] Filesize: 42292 bytes
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-270x270.png
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1afba243-g6InQZ.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-270x270.png
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:50:39] [class-ss-page.php:119] Checking Content Identical:ca4ec1a8567acc5ce8064ec8a267192362dd7a69===. Value: FALSE
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/feed/
+[2025-01-18 13:50:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 57
+[2025-01-18 13:50:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1afbf14c-8TEkHX.tmp
+[2025-01-18 13:50:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/feed/?simply_static_page=7611
+[2025-01-18 13:50:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/feed/?simply_static_page=7611
+[2025-01-18 13:51:09] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-01-18 13:51:09] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received
+[2025-01-18 13:51:09] [class-ss-url-fetcher.php:107] object(WP_Error)#2068 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-01-18 13:51:09] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/comments/feed/
+[2025-01-18 13:51:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 57
+[2025-01-18 13:51:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1cdc66be-jZS0uG.tmp
+[2025-01-18 13:51:09] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/comments/feed/?simply_static_page=7612
+[2025-01-18 13:51:09] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/comments/feed/?simply_static_page=7612
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30013 milliseconds with 0 bytes received
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:107] object(WP_Error)#1904 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30013 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-01-18 13:51:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 57
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ebcf844-kHO0wW.tmp
+[2025-01-18 13:51:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=7613
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=7613
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:103] Filesize: 43154 bytes
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ebcf844-kHO0wW.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:51:39] [class-ss-page.php:119] Checking Content Identical:486538a3d1eba64427d3d73811a11ca2e094991e===. Value: FALSE
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-includes/css/dist/block-library/style.min.css
+[2025-01-18 13:51:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 57
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ebda932-0d0iFL.tmp
+[2025-01-18 13:51:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=7614
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=7614
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ebda932-0d0iFL.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-includes/css/dist/block-library/style.min.css
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:51:39] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2025-01-18 13:51:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 57
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ebe55e0-n4JPhg.tmp
+[2025-01-18 13:51:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?simply_static_page=7615
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?simply_static_page=7615
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:103] Filesize: 335 bytes
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ebe55e0-n4JPhg.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:51:39] [class-ss-page.php:119] Checking Content Identical:f40aef07a4afcbe679aaff6f3a8cef6a20cb1fe6===. Value: FALSE
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css
+[2025-01-18 13:51:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 57
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ebeb751-cccJmq.tmp
+[2025-01-18 13:51:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css?simply_static_page=7616
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css?simply_static_page=7616
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:103] Filesize: 4023 bytes
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ebeb751-cccJmq.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:51:39] [class-ss-page.php:119] Checking Content Identical:70d0e9c0b035df65ab949ca82c50397a340e1fde===. Value: FALSE
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css
+[2025-01-18 13:51:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 57
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ebf0fc5-pCGdHa.tmp
+[2025-01-18 13:51:39] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css?simply_static_page=7617
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css?simply_static_page=7617
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:103] Filesize: 16471 bytes
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css
+[2025-01-18 13:51:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ebf0fc5-pCGdHa.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css
+[2025-01-18 13:51:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:51:40] [class-ss-page.php:119] Checking Content Identical:32a53342901fef5f4f4dbb26a555e730f84437a4===. Value: FALSE
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/uag-plugin/assets/0/uag-css-8.css
+[2025-01-18 13:51:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 57
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ec0f011-3DU0Ks.tmp
+[2025-01-18 13:51:40] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/uag-plugin/assets/0/uag-css-8.css?simply_static_page=7618
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/uag-plugin/assets/0/uag-css-8.css?simply_static_page=7618
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:103] Filesize: 66939 bytes
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/0/uag-css-8.css
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ec0f011-3DU0Ks.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/uag-plugin/assets/0/uag-css-8.css
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:51:40] [class-ss-page.php:119] Checking Content Identical:2ee99f14919065acc403c13ade7a0e1c8307da42===. Value: FALSE
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/themes/astra-child/style.css
+[2025-01-18 13:51:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 57
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ec19051-x3gLBx.tmp
+[2025-01-18 13:51:40] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/themes/astra-child/style.css?simply_static_page=7619
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/themes/astra-child/style.css?simply_static_page=7619
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:103] Filesize: 1168 bytes
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra-child/style.css
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ec19051-x3gLBx.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/themes/astra-child/style.css
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:51:40] [class-ss-page.php:119] Checking Content Identical:fefdf0582844a190ad2882cb7278ad26cfad7761===. Value: FALSE
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-json/
+[2025-01-18 13:51:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 57
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://tema-corporativo.local/wp-json/
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-json/wp/v2/pages/8
+[2025-01-18 13:51:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 57
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://tema-corporativo.local/wp-json/wp/v2/pages/8
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/xmlrpc.php
+[2025-01-18 13:51:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 57
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://tema-corporativo.local/xmlrpc.php
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-18 13:51:40] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 57 pages/files
+[2025-01-18 13:51:40] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-18 13:51:40] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-18 13:51:40] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:69] Total pages: 57; Pages remaining: 5
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-json/oembed/1.0/embed
+[2025-01-18 13:51:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 57
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://tema-corporativo.local/wp-json/oembed/1.0/embed
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-32x32.png
+[2025-01-18 13:51:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 57
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ec49f39-VVwNK1.tmp
+[2025-01-18 13:51:40] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-32x32.png?simply_static_page=7624
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-32x32.png?simply_static_page=7624
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:103] Filesize: 1743 bytes
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-32x32.png
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ec49f39-VVwNK1.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-32x32.png
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:51:40] [class-ss-page.php:119] Checking Content Identical:cb89f6c565624daf9cda7f619e9e1e5c2576f454===. Value: FALSE
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-192x192.png
+[2025-01-18 13:51:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 57
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ec54d55-UkDhu7.tmp
+[2025-01-18 13:51:40] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-192x192.png?simply_static_page=7625
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-192x192.png?simply_static_page=7625
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:103] Filesize: 25145 bytes
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-192x192.png
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ec54d55-UkDhu7.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-192x192.png
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:51:40] [class-ss-page.php:119] Checking Content Identical:f882b5a2cc25747c1d927a2504b5b654300a97ce===. Value: FALSE
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-180x180.png
+[2025-01-18 13:51:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 57
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ec5a17f-bHoLaV.tmp
+[2025-01-18 13:51:40] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-180x180.png?simply_static_page=7626
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-180x180.png?simply_static_page=7626
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:103] Filesize: 22850 bytes
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-180x180.png
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/678bb1ec5a17f-bHoLaV.tmp to C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232/wp-content/uploads/2025/01/cropped-8042fd69-981c-4f23-868a-b1649b06e791-180x180.png
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-18 13:51:40] [class-ss-page.php:119] Checking Content Identical:37b3bd5d1a1a2c1ce00468595135fb9ea066bd75===. Value: FALSE
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:72] URL: http://tema-corporativo.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed/index.xml
+[2025-01-18 13:51:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 57
+[2025-01-18 13:51:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1ec5edc0-qHRQ9t.tmp
+[2025-01-18 13:51:40] [class-ss-page-handler.php:38] URL Prepared:http://tema-corporativo.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed/index.xml?simply_static_page=7627
+[2025-01-18 13:51:40] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed/index.xml?simply_static_page=7627
+[2025-01-18 13:51:45] [class-ss-url-fetcher.php:103] Filesize: 104795 bytes
+[2025-01-18 13:51:45] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-01-18 13:51:45] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-01-18 13:51:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/678bb1f1ed53f-N2qoLu.tmp
+[2025-01-18 13:51:45] [class-ss-url-fetcher.php:251] Fetching URL: http://tema-corporativo.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed/index.xml
+[2025-01-18 13:51:46] [class-ss-url-fetcher.php:103] Filesize: 104795 bytes
+[2025-01-18 13:51:46] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-01-18 13:51:46] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-01-18 13:51:46] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 52 of 57 pages/files
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-18 13:51:46] [class-ss-fetch-urls-task.php:69] Total pages: 57; Pages remaining: 0
+[2025-01-18 13:51:46] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 57 of 57 pages/files
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/simply-static/temp-files/simply-static-1-1737208232/feed
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-includes/js/jquery
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-includes/js/jquery
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-includes/js/jquery
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-includes/js/jquery
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/themes/astra/assets/js/minified
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/themes/astra/assets/js/minified
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/uag-plugin/assets/0
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/uag-plugin/assets/0
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/themes/astra/assets/css/minified
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/themes/astra/assets/css/minified
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-includes/css/dist/block-library
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-includes/css/dist/block-library
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/uag-plugin/assets/0
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/uag-plugin/assets/0
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/themes/astra-child
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/themes/astra-child
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/Users/cleve/Documentos/GitHub/Tema-Corporativo/wp-content/uploads/2025/01
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:95] [Transfer] Total Pages:50. Processed Pages: 50
+[2025-01-18 13:51:46] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 50 of 50 files
+[2025-01-18 13:51:46] [trait-can-process-pages.php:112] Total pages: 50; Pages remaining: 0
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:195] Transferring 404 Page
+[2025-01-18 13:51:46] [class-ss-transfer-files-locally-task.php:198] No 404 Page found at C:\Users\cleve\Local Sites\tema-corporativo\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1737208232\404\index.html
+[2025-01-18 13:51:46] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://cleverson-sb.github.io/temacorporativo/" target="_blank">https://cleverson-sb.github.io/temacorporativo/</a>
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-01-18 13:51:46] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-01-18 13:51:46] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-01-18 13:51:46] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:01:14

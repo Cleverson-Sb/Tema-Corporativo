@@ -1,2 +1,0 @@
-# Tema-Corporativo
-Tema Corporativo
